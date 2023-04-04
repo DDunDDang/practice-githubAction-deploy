@@ -60,5 +60,5 @@ jobs:
       run: >
         aws deploy create-deployment --application-name be-47-ddunddang
         --deployment-config-name CodeDeployDefault.AllAtOnce
-        --Deployment-group-name be-47-ddunddang-group
+        --deployment-group-name be-47-ddunddang-group
         --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zip
